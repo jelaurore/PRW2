@@ -33,7 +33,7 @@ addPost = (post) => {
     posts: [...this.state.posts, post]
   })
 }
-
+//Nice work on the filter method.
 deletePost = (id) => {
   const filteredPost = this.state.posts.filter(post => post.id !== id)
   this.setState({
