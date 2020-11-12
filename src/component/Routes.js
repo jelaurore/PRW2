@@ -1,12 +1,11 @@
 import React from 'react';
 import {Switch, Route} from 'react-router-dom';
-import Home from '../pages/Home';
-import Meditate from '../pages/Meditate';
+import Home from '../pages/home/Home';
+import Meditate from '../pages/meditate/Meditate';
 import Sleep from '../pages/Sleep';
 import Profile from '../pages/Profile';
 import Contact from '../pages/Contact';
-
-// import Dashboard from '../pages/Dashboard';
+import Friends from '../pages/Friends';
 
 const Routes = () => {
   return(
@@ -17,6 +16,7 @@ const Routes = () => {
       <Route exact path='/Sleep' component={Sleep}/>
       <Route exact path='/Profile' component={Profile}/>
       <Route exact path='/Contact' component={Contact}/>
+      <Route exact path='/Friends' component={Friends}/>
     </Switch>
   )
 }

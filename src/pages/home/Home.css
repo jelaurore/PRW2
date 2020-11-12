@@ -1,0 +1,22 @@
+button:hover {
+  background-color: azure;
+}
+
+a:link {
+  color: #F5E9DD;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
