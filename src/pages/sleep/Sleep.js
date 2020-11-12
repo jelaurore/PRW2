@@ -1,26 +1,26 @@
 import React, {Component} from 'react';
-import '../meditate/Meditate.css';
 import Nav from '../../component/Nav';
+import '../sleep/Sleep.css';
 import { BsFillPlayFill } from 'react-icons/bs';
 import { BsFillPauseFill } from 'react-icons/bs';
+// import Card from '../component/Card';
 
-
-class Meditate extends Component {
+class Sleep extends Component {
   render() {
     return (
       <div>
       <Nav />
     <div>
-    <h1 style={styles.container}>Meditate</h1>
+    <h1 style={styles.container}>Sleep</h1>
     </div>
 
     <div className="row"> 
     <div className="column"> 
-      <img src='https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1331&q=80' alt="Lebron James"/>
+      <img src='https://images.unsplash.com/photo-1518260243959-eaff079e5987?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=935&q=80' alt="Diveen Henry"/>
       <header>
       <div className='left'>
-        <h1>Train Your Mind</h1>
-        <h2>By Lebron James</h2>
+        <h1>Into The Library</h1>
+        <h2>By Diveen Henry</h2>
         </div>
         <div className='right'>
         <button id='play'><BsFillPlayFill /></button>
@@ -30,11 +30,11 @@ class Meditate extends Component {
       </div>
 
     <div className="column"> 
-      <img src='https://images.unsplash.com/photo-1572879023364-ab4f53e9d5fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80' alt="Nikolay Dimitri"/>
+      <img src='https://images.unsplash.com/photo-1596501047681-97668cf7da2c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=955&q=80' alt="Scottie Pippen"/>
       <header>
       <div className='left'>
-        <h1>Anxiety Release</h1>
-        <h2>By Nikolay Dimitri</h2>
+        <h1>The History of a Dream</h1>
+        <h2>By Scottie Pippen</h2>
         </div>
         <div className='right'>
         <button id='play'><BsFillPlayFill /></button>
@@ -44,11 +44,11 @@ class Meditate extends Component {
       </div>
 
     <div className="column"> 
-      <img src='https://images.unsplash.com/photo-1554067559-269708c83fb6?ixlib=rb-1.2.1&auto=format&fit=crop&w=3252&q=80' alt="Jon Flobrant"/>
+      <img src='https://images.unsplash.com/photo-1596501048653-b2248b969fb9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80' alt="Chris Henry"/>
       <header>
       <div className='left'>
-        <h1>Easing Depression</h1>
-        <h2>By Jon Flobrant</h2>
+        <h1>To The River</h1>
+        <h2>By Chris Henry</h2>
         </div>
         <div className='right'>
         <button id='play'><BsFillPlayFill /></button>
@@ -66,7 +66,7 @@ class Meditate extends Component {
   }
 }
 
-export default Meditate;
+export default Sleep;
 
 const styles = {
   container: {
