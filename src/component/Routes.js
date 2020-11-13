@@ -4,7 +4,7 @@ import Home from '../pages/home/Home';
 import Meditate from '../pages/meditate/Meditate';
 import Sleep from '../pages/sleep/Sleep';
 import Profile from '../pages/Profile';
-import Contact from '../pages/Contact';
+import Contact from '../pages/contact/Contact';
 import Friends from '../pages/Friends';
 
 const Routes = () => {

@@ -39,7 +39,7 @@ const styles = {
   },
   deleteBtn: {
   backgroundColor: 'white',
-  marginLeft: '22rem',
+  marginLeft: '28rem',
   border: 'none',
   cursor: 'pointer'
   },

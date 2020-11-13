@@ -46,6 +46,7 @@ deletePost = (id) => {
     return (
       <div style={styles.app}>
         <Nav />
+        <h1 style={styles.container}>Friends</h1>
         <div>
           <Form addPost={this.addPost}/>
           {
@@ -64,5 +65,9 @@ export default Friends
 const styles = {
   app: {
     backgroundColor: '#fafafa'
+  },
+  container: {
+    margin: '50px',
+    textAlign: 'center'
   }
 }
