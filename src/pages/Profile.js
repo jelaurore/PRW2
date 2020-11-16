@@ -2,15 +2,16 @@ import React, {Component} from 'react';
 import Nav from '../component/Nav';
 
 class Profile extends Component {
-
-  constructor() {
-    super()
-    this.state = {
+  // Not needed
+  // constructor() {
+  //   super()
+  //   this.
+    state = {
       user: [],
       isLoading: false,
       error: null
     }
-  }
+  // }
 
   componentDidMount() {
     this.setState({isLoading: true});
@@ -101,7 +102,7 @@ class Profile extends Component {
       </div>
     )
   }
-  }
+}
 
 export default Profile
 

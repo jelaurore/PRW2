@@ -5,16 +5,17 @@ import '../home/Home.css';
 class Home extends Component {
   render() {
     return (
-    <div style={styles.container}>
-      <Nav />
-      <div style={styles.txtContainer}>
-      <h1 style={styles.txth1}>Find Your Peace</h1>
-      <h3 style={styles.txth3}>Sleep more. Stress less. Live better.</h3>
-      <a href="#home" style={styles.btn}>Get Started</a>
-      </div>
-    </div>
-    )
-  }
+        <div style={styles.container}>
+          <Nav />
+          <div style={styles.txtContainer}>
+          <h1 style={styles.txth1}>Find Your Peace</h1>
+          <h3 style={styles.txth3}>Sleep more. Stress less. Live better.</h3>
+          {/* Change this to a <NavLink to="" ></NavLink> */}
+          <a href="#home" style={styles.btn}>Get Started</a>
+          </div>
+        </div>
+      )
+    }
   }
 
 export default Home

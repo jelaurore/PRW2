@@ -4,7 +4,7 @@ import Nav from '../../component/Nav';
 import { BsFillPlayFill } from 'react-icons/bs';
 import { BsFillPauseFill } from 'react-icons/bs';
 
-
+//Week 4 change this to hooks syntax
 class Meditate extends Component {
   render() {
     return (

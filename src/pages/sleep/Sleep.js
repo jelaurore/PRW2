@@ -5,6 +5,7 @@ import { BsFillPlayFill } from 'react-icons/bs';
 import { BsFillPauseFill } from 'react-icons/bs';
 // import Card from '../component/Card';
 
+//Week 4 change this to hooks syntax
 class Sleep extends Component {
   render() {
     return (
