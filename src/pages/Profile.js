@@ -56,7 +56,7 @@ class Profile extends Component {
     }
 
     if (isLoading) {
-      return <p>Loading...</p>;
+      return <p>Please Wait...</p>;
     }
 
     return (
@@ -172,8 +172,7 @@ const styles = {
   },
   description: {
     margin: 'auto',
-    marginTop: '5%',
-    marginRight: '3em',
+    marginRight: '50%',
     width: '18em',
     color: '#7f8c8d',
     fontSize: '.87em',
