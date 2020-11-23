@@ -15,27 +15,38 @@ function About() {
   return(
       <div style={styles.div}>
         <Nav />
-        <img src='https://images.unsplash.com/photo-1495001258031-d1b407bc1776?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80' alt=""/>
-          <h2>FullName: {subHead.subHead}</h2>
-          <p>Description: {description}</p>
+        <h1 style={styles.h1}>About Us</h1>
+        <img style={styles.img} src='https://images.unsplash.com/photo-1495001258031-d1b407bc1776?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80' alt=""/>
+          <h2 style={styles.h2}>{subHead.subHead}</h2>
+          <p style={styles.p}>{description}</p>
       </div>
   );
 };
 
 export default About;
 
+// Styling the about us page 
 const styles = {
   app: {
     backgroundColor: '#fafafa'
   },
   img: {
-
+    display: 'block',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+    width: '50%'
   },
   h2: {
-
+    textAlign: 'center',
+    fontSize: '20px'
   },
-  
-  p: {
 
+  p: {
+    textAlign: 'center',
+    fontSize: '12px'
+  },
+  h1: {
+    margin: '50px',
+    textAlign: 'center'
   }
 }
