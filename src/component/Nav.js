@@ -8,6 +8,7 @@ import { SiCircle } from 'react-icons/si';
 import { CgProfile } from 'react-icons/cg';
 import { AiOutlineContacts } from 'react-icons/ai';
 import { FaUserFriends } from 'react-icons/fa';
+import { FcAbout } from 'react-icons/fc';
 
 const Nav = ()  => {
   const [open, setOpen] = useState(false);
@@ -23,16 +24,10 @@ const Nav = ()  => {
         <li><NavLink to='/Friends'><FaUserFriends /></NavLink></li>
         <li><NavLink to='/Profile'><CgProfile /></NavLink></li>
         <li><NavLink to='/Contact'><AiOutlineContacts /></NavLink></li>
+        <li><NavLink to='/About'><FcAbout /></NavLink></li>
       </ul>
       <button onClick={()=>setOpen(!open)} className="burger-menu"><GiHamburgerMenu/></button>
     </nav>
   )
 }
 export default Nav;
-
-//CSS Styling
-// const styles = {
-//   container: {
-
-//   }
-// }

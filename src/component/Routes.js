@@ -6,6 +6,7 @@ import Sleep from '../pages/sleep/Sleep';
 import Profile from '../pages/Profile';
 import Contact from '../pages/contact/Contact';
 import Friends from '../pages/Friends';
+import About from '../pages/About';
 
 const Routes = () => {
   return(
@@ -17,6 +18,7 @@ const Routes = () => {
       <Route exact path='/Profile' component={Profile}/>
       <Route exact path='/Contact' component={Contact}/>
       <Route exact path='/Friends' component={Friends}/>
+      <Route exact path='/About' component={About}/>
     </Switch>
   )
 }
