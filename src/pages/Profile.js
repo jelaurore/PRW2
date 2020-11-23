@@ -29,14 +29,14 @@ class Profile extends Component {
 
           if (typeof user !== undefined && typeof user.name !== undefined && typeof user.picture != undefined) {
             userElm = <div style={styles.userProfile} key={user}>
-              <img style={styles.avatar} src={user.picture.medium} alt="medium"/>
-              <h1>{user.name.first} {user.name.last}</h1>
-              <h4>{user.login.username}</h4>
-              <div style={styles.description}>
-              <h4>{user.location.city} {user.location.state}<span>,</span> {user.location.postcode}</h4>
-              <h4>{user.login.password}</h4>
-              </div>
-            </div>;
+                        <img style={styles.avatar} src={user.picture.medium} alt="medium"/>
+                        <h1>{user.name.first} {user.name.last}</h1>
+                        <h4>{user.login.username}</h4>
+                        <div style={styles.description}>
+                          <h4>{user.location.city} {user.location.state}<span>,</span> {user.location.postcode}</h4>
+                          <h4>{user.login.password}</h4>
+                        </div>
+                      </div>;
           }
           return(userElm)
         });

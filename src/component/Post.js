@@ -5,19 +5,19 @@ const Post = ({post, deletePost}) => {
   return (
     <div style={styles.post}>
       <div style={styles.postHeader}>
-      <CgProfile 
-      style={styles.postAvatar}
-      alt='Aaron'
-      src="/static/images/cgprofile/1.jpg"
-      >
+        <CgProfile 
+        style={styles.postAvatar}
+        alt='Aaron'
+        src="/static/images/cgprofile/1.jpg"
+        >
 
-      </CgProfile>
-    <h3>{post.username}</h3>
-    <button style={styles.deleteBtn} onClick={() => deletePost(post.id)}>X</button>
+        </CgProfile>
+        <h3>{post.username}</h3>
+        <button style={styles.deleteBtn} onClick={() => deletePost(post.id)}>X</button>
       </div>
-      <img style={styles.postImg} src={post.profileImgUrl} alt=""/>
+        <img style={styles.postImg} src={post.profileImgUrl} alt=""/>
 
-    <h4 style={styles.postTxt}><strong>{post.fullName} </strong>{post.about}</h4>
+        <h4 style={styles.postTxt}><strong>{post.fullName} </strong>{post.about}</h4>
     </div>
   )
 }

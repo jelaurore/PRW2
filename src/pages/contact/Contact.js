@@ -8,7 +8,7 @@ class Contact extends Component {
   <div>
     <Nav />
     <div>
-    <h1 style={styles.container}>Contact</h1>
+      <h1 style={styles.container}>Contact</h1>
     </div>
 
     <section className="section-form">
