@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Nav from '../component/Nav';
 
 function About() {
   //Define State
@@ -12,7 +13,8 @@ function About() {
   }, [])// pass in an empty array as a second argument
   
   return(
-      <div>
+      <div style={styles.div}>
+        <Nav />
         <img src='https://images.unsplash.com/photo-1495001258031-d1b407bc1776?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80' alt=""/>
           <h2>FullName: {subHead.subHead}</h2>
           <p>Description: {description}</p>
@@ -21,3 +23,19 @@ function About() {
 };
 
 export default About;
+
+const styles = {
+  app: {
+    backgroundColor: '#fafafa'
+  },
+  img: {
+
+  },
+  h2: {
+
+  },
+  
+  p: {
+
+  }
+}
